@@ -1,0 +1,27 @@
+Metadata-Version: 2.1
+Name: ti-simplelink-unpi
+Version: 0.2
+Summary: Serial uNPI frame parser and builder
+Home-page: UNKNOWN
+Author: a0132628
+Author-email: a0132628@ti.com
+License: BSD-3
+Description: UNPI
+        ====
+        
+        SerialNode
+        ----------
+        
+        A class that reads from serial in a thread, and invokes a
+        designated parser to check if the input stream contains a
+        serial frame.
+        
+        
+        UNPIParser
+        ----------
+        
+        Parser for the uNPI subsystem.
+        
+        
+Platform: UNKNOWN
+Description-Content-Type: text/markdown

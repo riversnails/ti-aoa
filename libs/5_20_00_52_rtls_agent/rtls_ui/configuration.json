@@ -1,0 +1,236 @@
+{
+    "version": 17,
+    "general": {
+        "websocket_port": 5050,
+        "rtls_util_timeout": 30,
+        "max_log_messages": 10000,
+        "number_of_messages_per_page": 75,
+        "cci_graph_parameters": {
+            "scale": {
+                "min": 0,
+                "max": 110,
+                "step": 10
+            }
+        },
+        "aoa_graph_parameters": {
+            "number_of_points_to_display": 50,
+            "average_each_n_point": 1,
+            "scale": {
+                "min": 0,
+                "max": 360,
+                "step": 20
+            }
+        },
+        "aoa_bar_graph_parameters": {
+            "scale": {
+                "min": 0,
+                "max": 360,
+                "step": 20
+            }
+        },
+        "space_view_parameters": {
+            "points_per_meter": 100
+        },
+        "color_schema": [
+            "#0e367c",
+            "#fba257",
+            "#4874bf",
+            "#f44242",
+            "#ab3434",
+            "#ffc425",
+            "#f37735",
+            "#00aedb",
+            "#00b159",
+            "#d11141"
+        ]
+    },
+    "scan_connection": {
+        "scan_time": 10,
+        "connection_interval": 100
+    },
+    "aoa_parameters": {
+        "aoa_run_mode": "AOA_MODE_RAW",
+        "aoa_raw_analyze_algo": "algo1",
+        "aoa_algo_search_speed": "fast",
+        "aoa_ant_type": "boostxl_aoa_circular_ant",
+        "aoa_save_raw_data": "No",
+        "aoa_display_channels": [
+            "1",
+            "5",
+            "10",
+            "15",
+            "20",
+            "25",
+            "30",
+            "35"
+        ],
+        "aoa_cc2640r2": {
+            "aoa_cte_scan_ovs": 4,
+            "aoa_cte_offset": 4,
+            "aoa_cte_length": 20,
+            "aoa_sampling_control": 0
+        },
+        "aoa_cc26x2": {
+            "aoa_cte_length": 20,
+            "aoa_cte_interval": 2,
+            "aoa_slot_durations": 2,
+            "aoa_sample_rate": 1,
+            "aoa_sample_size": 1,
+            "aoa_sampling_control": 16,
+            "aoa_sampling_enable": 1,
+            "aoa_pattern_len": 36,
+            "aoa_ant_pattern": [
+                0,
+                1,
+                2,
+                3,
+                4,
+                5,
+                0,
+                1,
+                2,
+                3,
+                4,
+                5,
+                0,
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                7,
+                8,
+                9,
+                10,
+                11,
+                6,
+                7,
+                8,
+                9,
+                10,
+                11,
+                6,
+                7,
+                8,
+                9,
+                10,
+                11
+            ]
+        }
+    },
+    "cci_parameters": {
+        "channels": [
+            "0",
+            "1",
+            "2",
+            "3",
+            "4",
+            "5",
+            "6",
+            "7",
+            "8",
+            "9",
+            "10",
+            "11",
+            "12",
+            "13",
+            "14",
+            "15",
+            "16",
+            "17",
+            "18",
+            "19",
+            "20",
+            "21",
+            "22",
+            "23",
+            "24",
+            "25",
+            "26",
+            "27",
+            "28",
+            "29",
+            "30",
+            "31",
+            "32",
+            "33",
+            "34",
+            "35",
+            "36"
+        ]
+    },
+    "cl_aoa_parameters": {
+        "cl_aoa_raw_analyze_algo": "algo1",
+        "cl_aoa_algo_search_speed": "fast",
+        "cl_aoa_ant_type": "boostxl_aoa_circular_ant",
+        "cl_aoa_save_raw_data": "No",
+        "cl_aoa_scanner": {
+            "use_periodic_adv_list": false,
+            "reporting_initially": true,
+            "skip": 0,
+            "sync_timeout": 30,
+            "sync_cte_type": 0
+        },
+        "cl_aoa_config": {
+            "cl_aoa_role": "AOA_COORDINATOR",
+            "cl_aoa_result_mode": "AOA_MODE_RAW",
+            "cl_aoa_slot_durations": 2,
+            "cl_aoa_sample_rate": 1,
+            "cl_aoa_sample_size": 1,
+            "cl_aoa_sampling_control": 16,
+            "max_sample_cte": 1,
+            "cl_aoa_pattern_len": 36,
+            "cl_aoa_ant_pattern": [
+                0,
+                1,
+                2,
+                3,
+                4,
+                5,
+                0,
+                1,
+                2,
+                3,
+                4,
+                5,
+                0,
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                7,
+                8,
+                9,
+                10,
+                11,
+                6,
+                7,
+                8,
+                9,
+                10,
+                11,
+                6,
+                7,
+                8,
+                9,
+                10,
+                11
+            ]
+        },
+        "cl_aoa_responder_by_angle_chart_params": {
+            "channels": [
+                "1",
+                "5",
+                "10",
+                "15",
+                "20",
+                "25",
+                "30",
+                "35"
+            ]
+        }
+    }
+}

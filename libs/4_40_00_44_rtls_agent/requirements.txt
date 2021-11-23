@@ -1,0 +1,10 @@
+Flask==1.1.1
+Flask-Cors==3.0.8
+Flask-RESTful==0.3.7
+websockets==7.0
+pyserial==3.4
+construct==2.9.45
+websocket_client==0.57.0
+numpy==1.18.5
+scipy==1.4.1
+pandas==1.0.5
